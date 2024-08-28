@@ -1,1 +1,81 @@
-# GitDemo
+📦 **Git Commands**
+
+-git init: Initializes a new Git repository.
+   -git init
+  
+-git clone: Clones an existing repository.
+   -git clone https://github.com/username/repository.git
+   
+-git add: Stages changes for commit.
+  -git add file.txt
+  -git add .
+  
+-git commit: Commits staged changes to the repository.
+  -git commit -m "Commit message"
+  
+-git status: Shows the status of changes.
+  -git status
+  
+-git log: Displays commit history.
+  -git log
+  
+-git diff: Shows differences between changes.
+  -git diff
+  
+-git branch: Lists, creates, or deletes branches.
+  -git branch
+  -git branch new-branch
+  -git branch -d old-branch
+  
+-git checkout: Switches branches or restores working directory files.
+  -git checkout branch-name
+  -git checkout -b new-branch
+  
+-git merge: Merges changes from one branch into another.
+  -git merge branch-name
+  
+-git pull: Fetches and merges changes from a remote repository.
+  -git pull origin main
+  
+-git push: Pushes local commits to a remote repository.
+  -git push origin branch-name
+  
+-git remote: Manages remote repositories.
+  -git remote -v
+  -git remote add origin https://github.com/username/repository.git
+  -git remote remove origin
+  
+-git fetch: Retrieves updates from a remote repository without merging.
+  -git fetch origin
+  
+-git rebase: Reapplies commits on top of another base tip.
+  -git rebase branch-name
+  
+-git reset: Resets current HEAD to a specified state.
+  -git reset --hard HEAD~1
+  -git reset --soft HEAD~1
+  
+-git stash: Stashes changes in a dirty working directory.
+  -git stash
+  -git stash pop
+  
+-git tag: Tags specific commits with a label.
+  -git tag v1.0
+  -git tag -a v1.0 -m "Version 1.0"
+  
+-git cherry-pick: Applies changes from specific commits.
+  -git cherry-pick commit-hash
+  
+-git revert: Creates a new commit that undoes changes from a previous commit.
+  -git revert commit-hash
+  
+-git config: Configures Git settings.
+  -git config --global user.name "Your Name"
+  -git config --global user.email "your.email@example.com"
+  
+-git log --graph: Visualizes the commit history as a graph.
+  -git log --graph --oneline
+  
+-git blame: Shows who last modified each line of a file.
+  -git blame file.txt
+  
